@@ -296,6 +296,97 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./components/common/footer.js":
+/*!*************************************!*\
+  !*** ./components/common/footer.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../config */ "./config.js");
+var _jsxFileName = "D:\\dangerzone\\smartcontract\\cryptohands\\components\\common\\footer.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    className: "bg-cryp-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "container px-4 py-32 mx-auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "mb-0 text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://etherscan.io/address/0xc712C62a82c58F6FB267B67f032E60B35e0aF3F1",
+    target: "_blank",
+    className: "text-lg text-white hover:text-white mr-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "Address"), __jsx("a", {
+    href: "/faq",
+    className: "text-lg text-white hover:text-white mr-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "FAQ"), __jsx("a", {
+    href: "/faqeth",
+    className: "text-lg text-white hover:text-white mr-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Ethereum FAQ"), __jsx("a", {
+    href: _config__WEBPACK_IMPORTED_MODULE_1__["default"].signup,
+    className: "text-lg text-white hover:text-white mr-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Sign Up"), __jsx("a", {
+    href: _config__WEBPACK_IMPORTED_MODULE_1__["default"].login,
+    className: "text-lg text-white hover:text-white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Login")), __jsx("p", {
+    className: "text-lg text-center text-gray-400 mb-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, " Copyright \xA9 CryptoFair")));
+});
+
+/***/ }),
+
 /***/ "./components/common/logo.js":
 /*!***********************************!*\
   !*** ./components/common/logo.js ***!
@@ -637,6 +728,150 @@ function (_React$Component2) {
 }(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Edit);
+
+/***/ }),
+
+/***/ "./components/common/nav.js":
+/*!**********************************!*\
+  !*** ./components/common/nav.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../config */ "./config.js");
+var _jsxFileName = "D:\\dangerzone\\smartcontract\\cryptohands\\components\\common\\nav.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      show = _useState[0],
+      setShow = _useState[1];
+
+  return __jsx("div", {
+    className: "flex flex-wrap justify-between py-4 items-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "/",
+    className: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "text-4xl text-cryp-text font-bold text-cryp-hover flex items-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/icons/icon-128x128.png",
+    className: "w-12 h-12 mr-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }), "CryptoFair")), __jsx("div", {
+    className: "md:hidden w-6 h-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx("button", {
+    className: "w-6 h-6 focus:outline-none",
+    onClick: function onClick() {
+      return setShow(!show);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, !show ? __jsx("svg", {
+    viewBox: "0 0 448 512",
+    className: "w-full h-full fill-current text-cryp-hover",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx("path", {
+    fill: "currentColor",
+    d: "M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  })) : __jsx("svg", {
+    viewBox: "0 0 352 512",
+    className: "w-full h-full fill-current text-cryp-hover",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, __jsx("path", {
+    fill: "currentColor",
+    d: "M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  })))), __jsx("div", {
+    className: "md:block w-full md:w-auto text-right ".concat(show ? null : 'hidden'),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "/faq",
+    className: "block md:inline-block text-lg text-cryp-text hover:text-cryp-hover mb-2 mr-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "FAQ"), __jsx("a", {
+    href: "/faqeth",
+    className: "block md:inline-block text-lg text-cryp-text hover:text-cryp-hover mb-2 mr-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "Ethereum FAQ"), __jsx("a", {
+    href: _config__WEBPACK_IMPORTED_MODULE_1__["default"].signup,
+    className: "inline-block text-lg w-32 text-center py-2 bg-cryp-hover rounded-full text-white border border-cryp-hover hover:bg-cryp-bold hover:border-cryp-bold mr-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Sign Up"), __jsx("a", {
+    href: _config__WEBPACK_IMPORTED_MODULE_1__["default"].login,
+    className: "inline-block text-lg w-32 text-center py-2 border border-cryp-hover rounded-full text-cryp-hover hover:border-cryp-bold hover:text-cryp-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Login")));
+});
 
 /***/ }),
 
@@ -8536,7 +8771,7 @@ module.exports = {
 
   var Buffer;
   try {
-    Buffer = __webpack_require__(/*! buffer */ 7).Buffer;
+    Buffer = __webpack_require__(/*! buffer */ 14).Buffer;
   } catch (e) {
   }
 
@@ -11978,7 +12213,7 @@ if (typeof self === 'object') {
 } else {
   // Node.js or Web worker with no crypto support
   try {
-    var crypto = __webpack_require__(/*! crypto */ 8);
+    var crypto = __webpack_require__(/*! crypto */ 15);
     if (typeof crypto.randomBytes !== 'function')
       throw new Error('Not supported');
 
@@ -73338,7 +73573,7 @@ util.inherits = __webpack_require__(/*! inherits */ "./node_modules/inherits/inh
 /*</replacement>*/
 
 /*<replacement>*/
-var debugUtil = __webpack_require__(/*! util */ 5);
+var debugUtil = __webpack_require__(/*! util */ 12);
 var debug = void 0;
 if (debugUtil && debugUtil.debuglog) {
   debug = debugUtil.debuglog('stream');
@@ -75227,7 +75462,7 @@ Writable.prototype._destroy = function (err, cb) {
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Buffer = __webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer;
-var util = __webpack_require__(/*! util */ 6);
+var util = __webpack_require__(/*! util */ 13);
 
 function copyBuffer(src, target, offset) {
   src.copy(target, offset);
@@ -100055,6 +100290,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_abicontract__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/abicontract */ "./assets/abicontract.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _components_common_nav__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/common/nav */ "./components/common/nav.js");
+/* harmony import */ var _components_common_footer__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/common/footer */ "./components/common/footer.js");
 
 
 
@@ -100065,6 +100302,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "D:\\dangerzone\\smartcontract\\cryptohands\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
+
+
 
 
 
@@ -100124,49 +100363,49 @@ var WsCom = function WsCom() {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 44
     },
     __self: this
   }, __jsx("div", {
     className: "flex justify-between text-lg text-cryp-text mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     },
     __self: this
   }, __jsx("div", {
     className: "tetx-gray-700",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     },
     __self: this
   }, "Amounts in BTC"), __jsx("div", {
     className: "text-gray-700 font-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 47
     },
     __self: this
   }, btcP ? Number(btcP * ethAmount).toFixed(4) : '--')), __jsx("div", {
     className: "flex justify-between text-lg text-cryp-text mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 49
     },
     __self: this
   }, __jsx("div", {
     className: "tetx-gray-700",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 50
     },
     __self: this
   }, "Amounts in USDT"), __jsx("div", {
     className: "text-gray-700 font-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 51
     },
     __self: this
   }, usdtP ? Number(usdtP * ethAmount).toFixed(4) : '--')));
@@ -100284,140 +100523,140 @@ var TxsCom = function TxsCom() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 79
     },
     __self: this
   }, __jsx("div", {
     className: "text-center text-2xl font-bold text-cryp-hover",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 80
     },
     __self: this
   }, "Total Members"), __jsx("div", {
     className: "text-center text-2xl text-cryp-text mb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 81
     },
     __self: this
   }, lvsCount[0]), __jsx("div", {
     className: "flex flex-wrap justify-between",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 82
     },
     __self: this
   }, __jsx("div", {
     className: "w-1/2 text-lg text-gray-700 mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 83
     },
     __self: this
-  }, "1 lv ", __jsx("span", {
+  }, "1 level ", __jsx("span", {
     className: "font-bold text-gray-700",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 84
     },
     __self: this
   }, lvsCount[0])), __jsx("div", {
     className: "w-1/2 text-gray-700 text-right text-lg mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 86
     },
     __self: this
-  }, "2 lv ", __jsx("span", {
+  }, "2 level ", __jsx("span", {
     className: "font-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 87
     },
     __self: this
   }, lvsCount[2].length)), __jsx("div", {
     className: "w-1/2 text-lg text-gray-700 mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 89
     },
     __self: this
-  }, "3 lv ", __jsx("span", {
+  }, "3 level ", __jsx("span", {
     className: "font-bold text-gray-700",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 90
     },
     __self: this
   }, lvsCount[3].length)), __jsx("div", {
     className: "w-1/2 text-gray-700 text-right text-lg mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 92
     },
     __self: this
-  }, "4 lv ", __jsx("span", {
+  }, "4 level ", __jsx("span", {
     className: "font-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 93
     },
     __self: this
   }, lvsCount[4].length)), __jsx("div", {
     className: "w-1/2 text-lg text-gray-700 mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 95
     },
     __self: this
-  }, "5 lv ", __jsx("span", {
+  }, "5 level ", __jsx("span", {
     className: "font-bold text-gray-700",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 96
     },
     __self: this
   }, lvsCount[5].length)), __jsx("div", {
     className: "w-1/2 text-gray-700 text-right text-lg mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 98
     },
     __self: this
-  }, "6 lv ", __jsx("span", {
+  }, "6 level ", __jsx("span", {
     className: "font-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 99
     },
     __self: this
   }, lvsCount[6].length)), __jsx("div", {
     className: "w-1/2 text-lg text-gray-700 mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 101
     },
     __self: this
-  }, "7 lv ", __jsx("span", {
+  }, "7 level ", __jsx("span", {
     className: "font-bold text-gray-700",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 102
     },
     __self: this
   }, lvsCount[7].length)), __jsx("div", {
     className: "w-1/2 text-gray-700 text-right text-lg mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 104
     },
     __self: this
-  }, "8 lv ", __jsx("span", {
+  }, "8 level ", __jsx("span", {
     className: "font-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 105
     },
     __self: this
   }, lvsCount[8].length)))) : __jsx("div", {
@@ -100427,7 +100666,7 @@ var TxsCom = function TxsCom() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 110
     },
     __self: this
   }, __jsx(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -100437,7 +100676,7 @@ var TxsCom = function TxsCom() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 111
     },
     __self: this
   }));
@@ -100558,53 +100797,53 @@ var LoadData = function LoadData() {
     className: "container px-4 py-32 mx-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142
+      lineNumber: 144
     },
     __self: this
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_14___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 145
     },
     __self: this
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144
+      lineNumber: 146
     },
     __self: this
   }, "CryptoFair - The easiest and fastest way to make money in crypto industry")), __jsx("h2", {
     className: "text-4xl text-cryp-text text-center mb-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 148
     },
     __self: this
   }, "Live statistics"), __jsx("div", {
     className: "flex flex-wrap lg:-mx-4 mb-16",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147
+      lineNumber: 149
     },
     __self: this
   }, __jsx("div", {
     className: "w-full lg:w-1/3 lg:px-4 mb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 150
     },
     __self: this
   }, __jsx(TxsCom, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 151
     },
     __self: this
   })), __jsx("div", {
     className: "w-full lg:w-1/3 lg:px-4 mb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 153
     },
     __self: this
   }, __jsx("div", {
@@ -100614,70 +100853,70 @@ var LoadData = function LoadData() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 154
     },
     __self: this
   }, txsCount ? __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("div", {
     className: "text-center text-2xl font-bold text-cryp-hover",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155
+      lineNumber: 157
     },
     __self: this
   }, "Project Preview"), __jsx("div", {
     className: "text-center text-2xl text-cryp-text mb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156
+      lineNumber: 158
     },
     __self: this
   }, "-- years"), __jsx("div", {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157
+      lineNumber: 159
     },
     __self: this
   }, __jsx("div", {
     className: "flex justify-between text-lg text-cryp-text mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158
+      lineNumber: 160
     },
     __self: this
   }, __jsx("div", {
     className: "tetx-gray-700",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159
+      lineNumber: 161
     },
     __self: this
   }, "Transactions"), __jsx("div", {
     className: "text-gray-700 font-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160
+      lineNumber: 162
     },
     __self: this
   }, txsCount[0])), __jsx("div", {
     className: "flex justify-between text-lg text-cryp-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 164
     },
     __self: this
   }, __jsx("div", {
     className: "tetx-gray-700",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 165
     },
     __self: this
   }, "Transactions for 24h"), __jsx("div", {
     className: "text-gray-700 font-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 166
     },
     __self: this
   }, txsCount[1])))) : __jsx(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -100687,14 +100926,14 @@ var LoadData = function LoadData() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 170
     },
     __self: this
   }))), __jsx("div", {
     className: "w-full lg:w-1/3 lg:px-4 mb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171
+      lineNumber: 173
     },
     __self: this
   }, __jsx("div", {
@@ -100704,28 +100943,28 @@ var LoadData = function LoadData() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172
+      lineNumber: 174
     },
     __self: this
   }, allvalues ? __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("div", {
     className: "text-center text-2xl font-bold text-cryp-hover",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 177
     },
     __self: this
   }, "Value"), __jsx("div", {
     className: "text-center text-2xl text-cryp-text mb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176
+      lineNumber: 178
     },
     __self: this
   }, allvalues[0], " ETH"), __jsx(WsCom, {
     ethAmount: allvalues[0],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177
+      lineNumber: 179
     },
     __self: this
   })) : __jsx(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -100735,74 +100974,74 @@ var LoadData = function LoadData() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 181
     },
     __self: this
   })))), __jsx("h2", {
     className: "text-4xl text-cryp-text text-center mb-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183
+      lineNumber: 185
     },
     __self: this
-  }, "Lastest transactions"), __jsx("div", {
-    className: "w-full",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 184
-    },
-    __self: this
-  }, rawTxs ? __jsx("table", {
+  }, "Lastest transaction"), __jsx("div", {
     className: "w-full",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 186
     },
     __self: this
+  }, rawTxs ? __jsx("table", {
+    className: "w-full",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 188
+    },
+    __self: this
   }, __jsx("thead", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187
+      lineNumber: 189
     },
     __self: this
   }, __jsx("tr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188
+      lineNumber: 190
     },
     __self: this
   }, __jsx("th", {
     className: "text-lg w-1/3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189
+      lineNumber: 191
     },
     __self: this
   }, "Date"), __jsx("th", {
     className: "text-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190
+      lineNumber: 192
     },
     __self: this
-  }, "Lv"), __jsx("th", {
+  }, "Level"), __jsx("th", {
     className: "text-lg text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191
+      lineNumber: 193
     },
     __self: this
   }, "Amount"), __jsx("th", {
     className: "text-lg text-right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192
+      lineNumber: 194
     },
     __self: this
   }, "Tx"))), __jsx("tbody", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195
+      lineNumber: 197
     },
     __self: this
   }, rawTxs.map(function (val, key) {
@@ -100811,35 +101050,35 @@ var LoadData = function LoadData() {
         key: key,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 199
+          lineNumber: 201
         },
         __self: this
       }, __jsx("td", {
         className: "px-1 py-2 text-lg text-gray-600",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 200
+          lineNumber: 202
         },
         __self: this
       }, renderTime(rawTxs[rawTxs.length - key - 1].returnValues._time.toString())), __jsx("td", {
         className: "px-1 py-2 text-lg text-gray-600",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 201
+          lineNumber: 203
         },
         __self: this
       }, rawTxs[rawTxs.length - key - 1].returnValues._level.toString()), __jsx("td", {
         className: "px-1 py-2 text-lg text-gray-600 text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 202
+          lineNumber: 204
         },
         __self: this
       }, prices[rawTxs[rawTxs.length - key - 1].returnValues._level.toString()]), __jsx("td", {
         className: "px-1 py-2 text-lg text-gray-600 text-right",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 203
+          lineNumber: 205
         },
         __self: this
       }, __jsx("a", {
@@ -100848,7 +101087,7 @@ var LoadData = function LoadData() {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 203
+          lineNumber: 205
         },
         __self: this
       }, "View Tx")));
@@ -100857,42 +101096,6 @@ var LoadData = function LoadData() {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 212
-    },
-    __self: this
-  }, __jsx(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    active: true,
-    paragraph: {
-      rows: 2
-    },
-    title: false,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 212
-    },
-    __self: this
-  })), __jsx("div", {
-    className: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 213
-    },
-    __self: this
-  }, __jsx(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    active: true,
-    paragraph: {
-      rows: 2
-    },
-    title: false,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 213
-    },
-    __self: this
-  })), __jsx("div", {
-    className: "",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 214
     },
     __self: this
@@ -101031,162 +101234,106 @@ var LoadData = function LoadData() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 221
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 222
+    },
+    __self: this
+  }, __jsx(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    active: true,
+    paragraph: {
+      rows: 2
+    },
+    title: false,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 222
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 223
+    },
+    __self: this
+  }, __jsx(antd_lib_skeleton__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    active: true,
+    paragraph: {
+      rows: 2
+    },
+    title: false,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 223
     },
     __self: this
   })))));
 };
 
 var Index = function Index() {
-  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(false),
-      show = _useState7[0],
-      setShow = _useState7[1];
-
   return __jsx("div", {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 231
+      lineNumber: 232
     },
     __self: this
   }, __jsx(antd_lib_back_top__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 232
+      lineNumber: 233
     },
     __self: this
   }), __jsx("div", {
     className: "flex flex-col",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 233
+      lineNumber: 234
     },
     __self: this
   }, __jsx("div", {
     className: "container mx-auto px-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 234
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "flex flex-wrap justify-between py-4 items-center",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 235
     },
     __self: this
-  }, __jsx("div", {
-    className: "text-4xl text-cryp-text font-bold text-cryp-hover flex items-center",
+  }, __jsx(_components_common_nav__WEBPACK_IMPORTED_MODULE_15__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 236
     },
     __self: this
-  }, __jsx("img", {
-    src: "/static/icons/icon-128x128.png",
-    className: "w-12 h-12 mr-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 237
-    },
-    __self: this
-  }), "CryptoFair"), __jsx("div", {
-    className: "md:hidden w-6 h-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 239
-    },
-    __self: this
-  }, __jsx("button", {
-    className: "w-6 h-6 focus:outline-none",
-    onClick: function onClick() {
-      return setShow(!show);
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 240
-    },
-    __self: this
-  }, !show ? __jsx("svg", {
-    viewBox: "0 0 448 512",
-    className: "w-full h-full fill-current text-cryp-hover",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 241
-    },
-    __self: this
-  }, __jsx("path", {
-    fill: "currentColor",
-    d: "M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 242
-    },
-    __self: this
-  })) : __jsx("svg", {
-    viewBox: "0 0 352 512",
-    className: "w-full h-full fill-current text-cryp-hover",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 243
-    },
-    __self: this
-  }, __jsx("path", {
-    fill: "currentColor",
-    d: "M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 244
-    },
-    __self: this
-  })))), __jsx("div", {
-    className: "md:block w-full md:w-auto text-right ".concat(show ? null : 'hidden'),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 248
-    },
-    __self: this
-  }, __jsx("a", {
-    href: _config__WEBPACK_IMPORTED_MODULE_12__["default"].signup,
-    className: "inline-block text-lg w-32 text-center py-2 bg-cryp-hover rounded-full text-white border border-cryp-hover hover:bg-cryp-bold hover:border-cryp-bold mr-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 252
-    },
-    __self: this
-  }, "Sign Up"), __jsx("a", {
-    href: _config__WEBPACK_IMPORTED_MODULE_12__["default"].login,
-    className: "inline-block text-lg w-32 text-center py-2 border border-cryp-hover rounded-full text-cryp-hover hover:border-cryp-bold hover:text-cryp-bold",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 253
-    },
-    __self: this
-  }, "Login")))), __jsx("div", {
+  })), __jsx("div", {
     className: "container mx-auto px-4 relative overflow-hidden pt-32 pb-48",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 257
+      lineNumber: 238
     },
     __self: this
   }, __jsx(_components_common_logo__WEBPACK_IMPORTED_MODULE_9__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 258
+      lineNumber: 239
     },
     __self: this
   }), __jsx("div", {
     className: "mt-32 md:mt-0 flex items-center px-4 z-10",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 259
+      lineNumber: 240
     },
     __self: this
   }, __jsx("div", {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 260
+      lineNumber: 241
     },
     __self: this
   }, __jsx("p", {
@@ -101196,21 +101343,21 @@ var Index = function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 261
+      lineNumber: 242
     },
     __self: this
   }, "Viral"), __jsx("p", {
     className: "text-4xl text-cryp-text mb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 262
+      lineNumber: 243
     },
     __self: this
   }, "Crypto Viral Works"), __jsx("p", {
     className: "text-lg text-cryp-span mb-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263
+      lineNumber: 244
     },
     __self: this
   }, "The easiest and fastest way to make money in crypto industry"), __jsx("button", {
@@ -101220,7 +101367,7 @@ var Index = function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 264
+      lineNumber: 245
     },
     __self: this
   }, "Let Start Now"))))), __jsx("div", {
@@ -101230,192 +101377,192 @@ var Index = function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 269
+      lineNumber: 250
     },
     __self: this
   }, __jsx("div", {
     className: "container mx-auto px-4 py-32",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 270
+      lineNumber: 251
     },
     __self: this
   }, __jsx("h2", {
     className: "text-4xl text-cryp-text text-center mb-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 271
+      lineNumber: 252
     },
     __self: this
   }, "Features"), __jsx("div", {
     className: "flex flex-wrap md:--mx-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 272
+      lineNumber: 253
     },
     __self: this
   }, __jsx("div", {
     className: "w-full md:w-1/2 lg:w-1/4 px-4 mb-4 lg:mb-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 273
+      lineNumber: 254
     },
     __self: this
   }, __jsx("div", {
     className: "rounded px-4 py-10 shadow cursor-pointer tt ts bg-gray-100",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 274
+      lineNumber: 255
     },
     __self: this
   }, __jsx("div", {
     className: "flex items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 275
+      lineNumber: 256
     },
     __self: this
   }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Svg1"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 276
+      lineNumber: 257
     },
     __self: this
   }), __jsx("p", {
     className: "text-cryp-hover text-xl mb-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 277
+      lineNumber: 258
     },
     __self: this
   }, "It is not an investment")), __jsx("p", {
     className: "text-cryp-span text-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 279
+      lineNumber: 260
     },
     __self: this
   }, "No need to wait"))), __jsx("div", {
     className: "w-full md:w-1/2 lg:w-1/4 px-4 mb-4 lg:mb-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 282
+      lineNumber: 263
     },
     __self: this
   }, __jsx("div", {
     className: "rounded px-4 py-10 shadow cursor-pointer tt ts bg-gray-100",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 283
+      lineNumber: 264
     },
     __self: this
   }, __jsx("div", {
     className: "flex items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 284
+      lineNumber: 265
     },
     __self: this
   }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Svg2"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 285
+      lineNumber: 266
     },
     __self: this
   }), __jsx("p", {
     className: "text-cryp-hover text-xl mb-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 286
+      lineNumber: 267
     },
     __self: this
   }, "It is not a trading")), __jsx("p", {
     className: "text-cryp-span text-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 288
+      lineNumber: 269
     },
     __self: this
   }, "No risk"))), __jsx("div", {
     className: "w-full md:w-1/2 lg:w-1/4 px-4 mb-4 md:mb-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 291
+      lineNumber: 272
     },
     __self: this
   }, __jsx("div", {
     className: "rounded px-4 py-10 shadow cursor-pointer tt ts bg-gray-100",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 292
+      lineNumber: 273
     },
     __self: this
   }, __jsx("div", {
     className: "flex items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 293
+      lineNumber: 274
     },
     __self: this
   }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Svg3"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 294
+      lineNumber: 275
     },
     __self: this
   }), __jsx("p", {
     className: "text-cryp-hover text-xl mb-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 295
+      lineNumber: 276
     },
     __self: this
   }, "This is not a sale")), __jsx("p", {
     className: "text-cryp-span text-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 297
+      lineNumber: 278
     },
     __self: this
   }, "of \"magical\" goods"))), __jsx("div", {
     className: "w-full md:w-1/2 lg:w-1/4 px-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 300
+      lineNumber: 281
     },
     __self: this
   }, __jsx("div", {
     className: "rounded px-4 py-10 shadow cursor-pointer tt ts bg-gray-100",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 301
+      lineNumber: 282
     },
     __self: this
   }, __jsx("div", {
     className: "flex items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 302
+      lineNumber: 283
     },
     __self: this
   }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Svg4"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 303
+      lineNumber: 284
     },
     __self: this
   }), __jsx("p", {
     className: "text-cryp-hover text-xl mb-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 304
+      lineNumber: 285
     },
     __self: this
   }, "It is not an ICO")), __jsx("p", {
     className: "text-cryp-span text-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 306
+      lineNumber: 287
     },
     __self: this
   }, "Scam is impossible")))))), __jsx("div", {
@@ -101425,149 +101572,257 @@ var Index = function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 312
+      lineNumber: 293
     },
     __self: this
   }, __jsx("div", {
     className: "container mx-auto px-4 py-32",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 313
+      lineNumber: 294
     },
     __self: this
-  }, __jsx("h2", {
-    className: "text-4xl text-cryp-text text-center mb-8",
+  }, __jsx("div", {
+    className: "flex flex-wrap md:-mx-4 mb-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 314
+      lineNumber: 295
     },
     __self: this
-  }, "How It Work"), __jsx("div", {
-    className: "flex flex-wrap",
+  }, __jsx("div", {
+    className: "w-full md:w-1/2 px-4 mb-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 296
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "text-cryp-hover font-bold text-2xl mb-2 text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 297
+    },
+    __self: this
+  }, "Who am I?"), __jsx("p", {
+    className: "text-lg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 298
+    },
+    __self: this
+  }, "I am a smart contract running on ethereum's decentralized platform created to help you get rich?"), __jsx("p", {
+    className: "text-lg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 299
+    },
+    __self: this
+  }, "The decentralized power is the power of the future."), __jsx("p", {
+    className: "text-lg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 300
+    },
+    __self: this
+  }, "I am a decentralized financial rotation platform that creates fair and transparent games for participants")), __jsx("div", {
+    className: "w-full md:w-1/2 px-4 mb-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 302
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "text-cryp-hover font-bold text-2xl mb-2 text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 303
+    },
+    __self: this
+  }, "Why choose me??"), __jsx("p", {
+    className: "text-lg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 304
+    },
+    __self: this
+  }, "This is not an ICO. This is not an investment. This is not a trading"), __jsx("p", {
+    className: "text-lg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 305
+    },
+    __self: this
+  }, "I want to create a strong community where the interests of all people are the same. The flat world only happens when operating a decentralized platform that lives.")), __jsx("div", {
+    className: "w-full px-4 mb-4 md:text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 307
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "text-cryp-hover font-bold text-2xl mb-2 text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 308
+    },
+    __self: this
+  }, "What do you need to do and how do you do it in the cryptofair system?"), __jsx("p", {
+    className: "text-lg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 309
+    },
+    __self: this
+  }, "This is a fair and transparent system that automatically operates through which no one has the right to intervene, all participants are the main owners and you will decide your income."), __jsx("div", {
+    className: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 310
+    },
+    __self: this
+  }, __jsx("button", {
+    className: "focus:outline-none inline-block rounded-full py-2 px-8 bg-cryp-hover text-lg shadow text-gray-100 ts hover:bg-cryp-bold tt hover:shadow",
+    onClick: function onClick() {
+      return window.location = _config__WEBPACK_IMPORTED_MODULE_12__["default"].signup;
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 311
+    },
+    __self: this
+  }, "Join me for the future.")))), __jsx("h2", {
+    className: "text-4xl text-cryp-text text-center mb-8",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 315
     },
     __self: this
-  }, __jsx("div", {
-    className: "w-full lg:w-1/4 px-8 relative mb-16 lg:mb-0",
+  }, "How It Works"), __jsx("div", {
+    className: "flex flex-wrap",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 316
     },
     __self: this
   }, __jsx("div", {
-    className: "px-4 py-10 shadow-lg lg:shadow-none hover:shadow-lg tt cursor-pointer rounded hover:bg-white",
-    style: {
-      height: '270px'
-    },
+    className: "w-full lg:w-1/4 px-8 relative mb-16 lg:mb-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 317
     },
     __self: this
   }, __jsx("div", {
-    className: "flex justify-center",
+    className: "px-4 py-10 shadow-lg lg:shadow-none hover:shadow-lg tt cursor-pointer rounded hover:bg-white",
+    style: {
+      height: '270px'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 318
     },
     __self: this
-  }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Create"], {
+  }, __jsx("div", {
+    className: "flex justify-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 319
+    },
+    __self: this
+  }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Create"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 320
     },
     __self: this
   })), __jsx("p", {
     className: "text-center text-cryp-hover font-bold text-2xl mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 321
+      lineNumber: 322
     },
     __self: this
   }, "Sign Up"), __jsx("p", {
     className: "text-center text-cryp-span text-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 322
+      lineNumber: 323
     },
     __self: this
-  }, "Send ", _config__WEBPACK_IMPORTED_MODULE_12__["default"].prices[0], " ETH to your upline, wich will back after the first referral")), __jsx("div", {
+  }, "Send ", _config__WEBPACK_IMPORTED_MODULE_12__["default"].prices[0], " ETH to your upline, which will back after the first referral")), __jsx("div", {
     className: "absolute w flex items-center justify-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 324
-    },
-    __self: this
-  }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Arrow"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 325
     },
     __self: this
-  }))), __jsx("div", {
-    className: "w-full lg:w-1/4 px-8 relative mb-16 lg:mb-0",
+  }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Arrow"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 328
+      lineNumber: 326
     },
     __self: this
-  }, __jsx("div", {
-    className: "px-4 py-10 shadow-lg lg:shadow-none hover:shadow-lg tt cursor-pointer rounded hover:bg-white",
-    style: {
-      height: '270px'
-    },
+  }))), __jsx("div", {
+    className: "w-full lg:w-1/4 px-8 relative mb-16 lg:mb-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 329
     },
     __self: this
   }, __jsx("div", {
-    className: "flex justify-center",
+    className: "px-4 py-10 shadow-lg lg:shadow-none hover:shadow-lg tt cursor-pointer rounded hover:bg-white",
+    style: {
+      height: '270px'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 330
     },
     __self: this
-  }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Login"], {
+  }, __jsx("div", {
+    className: "flex justify-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 331
+    },
+    __self: this
+  }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Login"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 332
     },
     __self: this
   })), __jsx("p", {
     className: "text-center text-cryp-hover font-bold text-2xl mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 333
+      lineNumber: 334
     },
     __self: this
   }, "Log in"), __jsx("p", {
     className: "text-center text-cryp-span text-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 334
+      lineNumber: 335
     },
     __self: this
   }, "In 1 click without password (we never ask for private keys)")), __jsx("div", {
     className: "absolute w flex items-center justify-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 336
+      lineNumber: 337
     },
     __self: this
   }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Arrow"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 337
+      lineNumber: 338
     },
     __self: this
   }))), __jsx("div", {
     className: "w-full lg:w-1/4 px-8 relative mb-16 lg:mb-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 340
+      lineNumber: 341
     },
     __self: this
   }, __jsx("div", {
@@ -101577,54 +101832,54 @@ var Index = function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 341
+      lineNumber: 342
     },
     __self: this
   }, __jsx("div", {
     className: "flex justify-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 342
+      lineNumber: 343
     },
     __self: this
   }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Refs"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 343
+      lineNumber: 344
     },
     __self: this
   })), __jsx("p", {
     className: "text-center text-cryp-hover font-bold text-2xl mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 345
+      lineNumber: 346
     },
     __self: this
   }, "Attract referrals"), __jsx("p", {
     className: "text-center text-cryp-span text-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 346
+      lineNumber: 347
     },
     __self: this
   }, "Attract referrals or wait referrals from the system")), __jsx("div", {
     className: "absolute w flex items-center justify-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 348
+      lineNumber: 349
     },
     __self: this
   }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Arrow"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 349
+      lineNumber: 350
     },
     __self: this
   }))), __jsx("div", {
     className: "w-full lg:w-1/4 px-8 relative",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 352
+      lineNumber: 353
     },
     __self: this
   }, __jsx("div", {
@@ -101634,62 +101889,62 @@ var Index = function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 353
+      lineNumber: 354
     },
     __self: this
   }, __jsx("div", {
     className: "flex justify-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 354
+      lineNumber: 355
     },
     __self: this
   }, __jsx(_components_common_svg__WEBPACK_IMPORTED_MODULE_10__["Income"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 355
+      lineNumber: 356
     },
     __self: this
   })), __jsx("p", {
     className: "text-center text-cryp-hover font-bold text-2xl mb-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 357
+      lineNumber: 358
     },
     __self: this
   }, "Income"), __jsx("p", {
     className: "text-center text-cryp-span text-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 358
+      lineNumber: 359
     },
     __self: this
   }, "Receive funds immediately to ETH wallet without confirmation and payment requests")))))), __jsx("div", {
     className: "bg-cryp-hover",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 364
+      lineNumber: 365
     },
     __self: this
   }, __jsx("div", {
     className: "container mx-auto px-4 py-32",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 365
+      lineNumber: 366
     },
     __self: this
   }, __jsx("h2", {
     className: "text-white text-4xl text-center mb-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 366
+      lineNumber: 367
     },
     __self: this
   }, "Plan - Level Up"), __jsx("div", {
     className: "rounded bg-white py-4 shadow",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 367
+      lineNumber: 368
     },
     __self: this
   }, _config__WEBPACK_IMPORTED_MODULE_12__["default"].prices.map(function (val, key) {
@@ -101699,105 +101954,105 @@ var Index = function Index() {
         key: key,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 371
+          lineNumber: 372
         },
         __self: this
       }, __jsx("div", {
         className: "w-full md:w-1/4 text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 372
+          lineNumber: 373
         },
         __self: this
       }, __jsx("p", {
         className: "text-base text-gray-400 mb-0",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 373
+          lineNumber: 374
         },
         __self: this
       }, "Level"), __jsx("p", {
         className: "text-lg text-white font-bold mb-0",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 374
+          lineNumber: 375
         },
         __self: this
       }, "#", key + 1)), __jsx("div", {
         className: "w-full md:w-1/4 text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 376
+          lineNumber: 377
         },
         __self: this
       }, __jsx("p", {
         className: "text-base text-gray-400 mb-0",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 377
+          lineNumber: 378
         },
         __self: this
       }, "Price"), __jsx("p", {
         className: "text-lg text-gray-300 font-bold mb-0",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 378
+          lineNumber: 379
         },
         __self: this
       }, __jsx("span", {
         className: "text-white",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 378
+          lineNumber: 379
         },
         __self: this
       }, val), " ETH")), __jsx("div", {
         className: "w-full md:w-1/4 text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 380
+          lineNumber: 381
         },
         __self: this
       }, __jsx("p", {
         className: "text-base text-gray-400 mb-0",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 381
+          lineNumber: 382
         },
         __self: this
       }, "Referrals"), __jsx("p", {
         className: "text-lg text-white font-bold mb-0",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 382
+          lineNumber: 383
         },
         __self: this
       }, _config__WEBPACK_IMPORTED_MODULE_12__["default"].refs[key])), __jsx("div", {
         className: "w-full md:w-1/4 text-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 384
+          lineNumber: 385
         },
         __self: this
       }, __jsx("p", {
         className: "text-base text-gray-400 mb-0",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 385
+          lineNumber: 386
         },
         __self: this
       }, "Income"), __jsx("p", {
         className: "text-lg text-gray-300 font-bold mb-0",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 386
+          lineNumber: 387
         },
         __self: this
       }, __jsx("span", {
         className: "text-white",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 386
+          lineNumber: 387
         },
         __self: this
       }, _config__WEBPACK_IMPORTED_MODULE_12__["default"].Incomes[key]), " ETH")));
@@ -101808,105 +102063,105 @@ var Index = function Index() {
       key: key,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 392
+        lineNumber: 393
       },
       __self: this
     }, __jsx("div", {
       className: "w-full md:w-1/4 text-center",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 393
+        lineNumber: 394
       },
       __self: this
     }, __jsx("p", {
       className: "text-base text-gray-500 mb-0",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 394
+        lineNumber: 395
       },
       __self: this
     }, "Level"), __jsx("p", {
       className: "text-lg text-cryp-text font-bold mb-0",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 395
+        lineNumber: 396
       },
       __self: this
     }, "#", key + 1)), __jsx("div", {
       className: "w-full md:w-1/4 text-center",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 397
+        lineNumber: 398
       },
       __self: this
     }, __jsx("p", {
       className: "text-base text-gray-500 mb-0",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 398
+        lineNumber: 399
       },
       __self: this
     }, "Price"), __jsx("p", {
       className: "text-lg text-cryp-text font-bold mb-0",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 399
+        lineNumber: 400
       },
       __self: this
     }, __jsx("span", {
       className: "text-cryp-hover",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 399
+        lineNumber: 400
       },
       __self: this
     }, val), " ETH")), __jsx("div", {
       className: "w-full md:w-1/4 text-center",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 401
+        lineNumber: 402
       },
       __self: this
     }, __jsx("p", {
       className: "text-base text-gray-500 mb-0",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 402
+        lineNumber: 403
       },
       __self: this
     }, "Referrals"), __jsx("p", {
       className: "text-lg text-cryp-text font-bold mb-0",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 403
+        lineNumber: 404
       },
       __self: this
     }, _config__WEBPACK_IMPORTED_MODULE_12__["default"].refs[key])), __jsx("div", {
       className: "w-full md:w-1/4 text-center",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 405
+        lineNumber: 406
       },
       __self: this
     }, __jsx("p", {
       className: "text-base text-gray-500 mb-0",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 406
+        lineNumber: 407
       },
       __self: this
     }, "Income"), __jsx("p", {
       className: "text-lg text-cryp-text font-bold mb-0",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 407
+        lineNumber: 408
       },
       __self: this
     }, __jsx("span", {
       className: "text-cryp-hover",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 407
+        lineNumber: 408
       },
       __self: this
     }, _config__WEBPACK_IMPORTED_MODULE_12__["default"].Incomes[key]), " ETH")));
@@ -101917,56 +102172,29 @@ var Index = function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 415
+      lineNumber: 416
     },
     __self: this
   }, __jsx(LoadData, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 416
+      lineNumber: 417
     },
     __self: this
-  })), __jsx("div", {
-    className: "bg-cryp-bold",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 418
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "container px-4 py-32 mx-auto",
+  })), __jsx(_components_common_footer__WEBPACK_IMPORTED_MODULE_16__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 419
     },
     __self: this
-  }, __jsx("p", {
-    className: "text-lg text-center text-gray-400",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 420
-    },
-    __self: this
-  }, "Copyright \xA9 CryptoFair"))));
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 1:
-/*!***********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cdangerzone%5Csmartcontract%5Ccryptohands%5Cpages%5Cindex.js ***!
-  \***********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cdangerzone%5Csmartcontract%5Ccryptohands%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5Cdangerzone%5Csmartcontract%5Ccryptohands%5Cpages%5Cindex.js!./");
-
-
-/***/ }),
-
-/***/ 5:
+/***/ 12:
 /*!**********************!*\
   !*** util (ignored) ***!
   \**********************/
@@ -101977,7 +102205,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ 6:
+/***/ 13:
 /*!**********************!*\
   !*** util (ignored) ***!
   \**********************/
@@ -101988,7 +102216,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ 7:
+/***/ 14:
 /*!************************!*\
   !*** buffer (ignored) ***!
   \************************/
@@ -101999,7 +102227,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ 8:
+/***/ 15:
 /*!************************!*\
   !*** crypto (ignored) ***!
   \************************/
@@ -102007,6 +102235,18 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 /***/ (function(module, exports) {
 
 /* (ignored) */
+
+/***/ }),
+
+/***/ 9:
+/*!***********************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cdangerzone%5Csmartcontract%5Ccryptohands%5Cpages%5Cindex.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cdangerzone%5Csmartcontract%5Ccryptohands%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5Cdangerzone%5Csmartcontract%5Ccryptohands%5Cpages%5Cindex.js!./");
+
 
 /***/ }),
 
@@ -102021,5 +102261,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
