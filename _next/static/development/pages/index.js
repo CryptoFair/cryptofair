@@ -782,11 +782,32 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 10
     },
     __self: this
-  }), "CryptoFair")), __jsx("div", {
-    className: "md:hidden w-6 h-6",
+  }), __jsx("div", {
+    className: "text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "CryptoFair"), __jsx("div", {
+    className: "text-sm text-red-400",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
+    },
+    __self: this
+  }, "Share more - Get more")))), __jsx("div", {
+    className: "md:hidden w-6 h-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
     },
     __self: this
   }, __jsx("button", {
@@ -796,7 +817,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 18
     },
     __self: this
   }, !show ? __jsx("svg", {
@@ -804,7 +825,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "w-full h-full fill-current text-cryp-hover",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 19
     },
     __self: this
   }, __jsx("path", {
@@ -812,7 +833,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     d: "M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 20
     },
     __self: this
   })) : __jsx("svg", {
@@ -820,7 +841,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "w-full h-full fill-current text-cryp-hover",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 21
     },
     __self: this
   }, __jsx("path", {
@@ -828,14 +849,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     d: "M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 22
     },
     __self: this
   })))), __jsx("div", {
     className: "md:block w-full md:w-auto text-right ".concat(show ? null : 'hidden'),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 26
     },
     __self: this
   }, __jsx("a", {
@@ -843,7 +864,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "block md:inline-block text-lg text-cryp-text hover:text-cryp-hover mb-2 mr-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 27
     },
     __self: this
   }, "FAQ"), __jsx("a", {
@@ -851,7 +872,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "block md:inline-block text-lg text-cryp-text hover:text-cryp-hover mb-2 mr-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 28
     },
     __self: this
   }, "Ethereum FAQ"), __jsx("a", {
@@ -859,7 +880,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "inline-block text-lg w-32 text-center py-2 bg-cryp-hover rounded-full text-white border border-cryp-hover hover:bg-cryp-bold hover:border-cryp-bold mr-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 29
     },
     __self: this
   }, "Sign Up"), __jsx("a", {
@@ -867,7 +888,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "inline-block text-lg w-32 text-center py-2 border border-cryp-hover rounded-full text-cryp-hover hover:border-cryp-bold hover:text-cryp-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 30
     },
     __self: this
   }, "Login")));
@@ -8771,7 +8792,7 @@ module.exports = {
 
   var Buffer;
   try {
-    Buffer = __webpack_require__(/*! buffer */ 14).Buffer;
+    Buffer = __webpack_require__(/*! buffer */ 7).Buffer;
   } catch (e) {
   }
 
@@ -12213,7 +12234,7 @@ if (typeof self === 'object') {
 } else {
   // Node.js or Web worker with no crypto support
   try {
-    var crypto = __webpack_require__(/*! crypto */ 15);
+    var crypto = __webpack_require__(/*! crypto */ 8);
     if (typeof crypto.randomBytes !== 'function')
       throw new Error('Not supported');
 
@@ -73573,7 +73594,7 @@ util.inherits = __webpack_require__(/*! inherits */ "./node_modules/inherits/inh
 /*</replacement>*/
 
 /*<replacement>*/
-var debugUtil = __webpack_require__(/*! util */ 12);
+var debugUtil = __webpack_require__(/*! util */ 5);
 var debug = void 0;
 if (debugUtil && debugUtil.debuglog) {
   debug = debugUtil.debuglog('stream');
@@ -75462,7 +75483,7 @@ Writable.prototype._destroy = function (err, cb) {
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Buffer = __webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer;
-var util = __webpack_require__(/*! util */ 13);
+var util = __webpack_require__(/*! util */ 6);
 
 function copyBuffer(src, target, offset) {
   src.copy(target, offset);
@@ -101638,7 +101659,7 @@ var Index = function Index() {
       lineNumber: 303
     },
     __self: this
-  }, "Why choose me??"), __jsx("p", {
+  }, "Why choose me?"), __jsx("p", {
     className: "text-lg",
     __source: {
       fileName: _jsxFileName,
@@ -101674,7 +101695,7 @@ var Index = function Index() {
     },
     __self: this
   }, "This is a fair and transparent system that automatically operates through which no one has the right to intervene, all participants are the main owners and you will decide your income."), __jsx("div", {
-    className: "",
+    className: "mt-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 310
@@ -102194,7 +102215,19 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 12:
+/***/ 1:
+/*!***********************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cdangerzone%5Csmartcontract%5Ccryptohands%5Cpages%5Cindex.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cdangerzone%5Csmartcontract%5Ccryptohands%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5Cdangerzone%5Csmartcontract%5Ccryptohands%5Cpages%5Cindex.js!./");
+
+
+/***/ }),
+
+/***/ 5:
 /*!**********************!*\
   !*** util (ignored) ***!
   \**********************/
@@ -102205,7 +102238,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 13:
+/***/ 6:
 /*!**********************!*\
   !*** util (ignored) ***!
   \**********************/
@@ -102216,7 +102249,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 14:
+/***/ 7:
 /*!************************!*\
   !*** buffer (ignored) ***!
   \************************/
@@ -102227,7 +102260,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 15:
+/***/ 8:
 /*!************************!*\
   !*** crypto (ignored) ***!
   \************************/
@@ -102235,18 +102268,6 @@ var Index = function Index() {
 /***/ (function(module, exports) {
 
 /* (ignored) */
-
-/***/ }),
-
-/***/ 9:
-/*!***********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cdangerzone%5Csmartcontract%5Ccryptohands%5Cpages%5Cindex.js ***!
-  \***********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cdangerzone%5Csmartcontract%5Ccryptohands%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5Cdangerzone%5Csmartcontract%5Ccryptohands%5Cpages%5Cindex.js!./");
-
 
 /***/ }),
 
@@ -102261,5 +102282,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
