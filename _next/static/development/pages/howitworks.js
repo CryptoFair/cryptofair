@@ -869,7 +869,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __self: this
   })))), __jsx("div", {
-    className: "lg:block w-full lg:w-auto text-right ".concat(show ? null : 'hidden'),
+    className: "lg:block w-full lg:w-auto text-right lg:flex lg:items-center ".concat(show ? null : 'hidden'),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
@@ -877,7 +877,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: this
   }, __jsx("a", {
     href: "/howitworks",
-    className: "block lg:inline-block text-lg text-cryp-text hover:text-cryp-hover mb-2 mr-6",
+    className: "block lg:inline-block text-lg text-cryp-text hover:text-cryp-hover mb-2 mr-6 lg:mb-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
@@ -885,7 +885,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: this
   }, "How it works"), __jsx("a", {
     href: "/faq",
-    className: "block lg:inline-block text-lg text-cryp-text hover:text-cryp-hover mb-2 mr-6",
+    className: "block lg:inline-block text-lg text-cryp-text hover:text-cryp-hover mb-2 mr-6 lg:mb-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
@@ -893,7 +893,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: this
   }, "FAQ"), __jsx("a", {
     href: "/faqeth",
-    className: "block lg:inline-block text-lg text-cryp-text hover:text-cryp-hover mb-2 mr-6",
+    className: "block lg:inline-block text-lg text-cryp-text hover:text-cryp-hover mb-2 mr-6 lg:mb-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -915,7 +915,84 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 31
     },
     __self: this
-  }, "Login")));
+  }, "Login"), __jsx("div", {
+    className: "ml-4 flex items-center relative py-2 group-box justify-end",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "flex items-center cursor-pointer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "text-lg text-cryp-text mr-1 hover:text-cryp-hover",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "Languages"), __jsx("img", {
+    src: "/static/translate.svg",
+    alt: "",
+    className: "w-6 h-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "px-4 py-4 absolute bg-gray-600 bottom-0 right-0 text-left text-gray-100 z-10 group-translate",
+    style: {
+      width: '300px',
+      transform: 'translateY(100%)'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "mb-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "Website Translator"), __jsx("div", {
+    className: "mb-4",
+    id: "google_translate_element",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "h-px bg-gray-700",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, "Translations by Google is provided for convenience and is not verified contextually."), __jsx("div", {
+    className: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "Please refer to original for accuracy.")))));
 });
 
 /***/ }),
@@ -37471,7 +37548,7 @@ var Panel = antd_lib_collapse__WEBPACK_IMPORTED_MODULE_1___default.a.Panel;
       lineNumber: 61
     },
     __self: this
-  }, "These 0.05 ETH will return to you fully after the first referral."))), __jsx("div", {
+  }, "These ", _config__WEBPACK_IMPORTED_MODULE_7__["default"].prices[0], " ETH will return to you fully after the first referral."))), __jsx("div", {
     className: "flex flex-wrap text-lg mb-8",
     __source: {
       fileName: _jsxFileName,

@@ -11768,6 +11768,22 @@ video {
   overflow: hidden;
 }
 
+.goog-te-menu-value{
+  display: flex;
+}
+
+.goog-te-gadget-simple{
+  display: inline-flex!important;
+}
+
+.group-box:hover .group-translate{
+  display: block;
+}
+
+.group-translate{
+  display: none;
+}
+
 @media (min-width: 576px) {
 }
 
